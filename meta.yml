@@ -1,0 +1,11 @@
+name:  Path Traversal
+description: |
+  In this CTF challenge, participants will need to exploit Nginx path traversal vulnerabilities to access a file that should not be accessible. The challenge provides a nginx.conf file, and the goal is to find a way to access a forbidden file by taking advantage of the misconfigured settings.
+
+  Run: ssh -L <local_port>:nginx-web:8080 -p 56151 <user>@cs561.cs.umass.edu
+value: 100
+category: Web
+flag: CTF_SDaT{0hpLpVSFIUzXlBHaQklM}
+
+# administrative
+container_name: nginx-web
